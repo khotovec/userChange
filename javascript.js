@@ -4,6 +4,7 @@
 
 $(document).ready(function main() {
     "use strict";
-    var specialLink = document.getElementById('customLink');
+    var iframe = document.getElementsByTagName('iframe') [0],
+    specialLink = iframe.getElementById('customLink');
     specialLink.style.display = 'none';
 });
